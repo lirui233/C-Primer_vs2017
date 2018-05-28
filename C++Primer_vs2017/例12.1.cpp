@@ -5,7 +5,7 @@
 #include <memory>
 
 using namespace std;
-//https://github.com/lirui233/study.git
+
 class strBlob
 {
 public:
