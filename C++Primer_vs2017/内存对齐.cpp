@@ -7,6 +7,7 @@ int main(void)
 	{
 		char ch;
 		double a;
+		char ch2;
 	};
 
 	Test test;
