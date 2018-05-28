@@ -57,7 +57,6 @@ string& strBlob::front()
 
 string& strBlob::back()
 {
-	// TODO: 在此处插入 return 语句
 	check(0, "back on empty StrBlob");
 	return data->back();
 }
