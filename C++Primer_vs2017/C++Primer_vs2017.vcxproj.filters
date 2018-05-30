@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="reinterpret_cast使用.cpp">
+    <ClInclude Include="Integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="自增运算符重载.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
