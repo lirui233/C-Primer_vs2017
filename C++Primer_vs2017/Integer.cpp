@@ -1,6 +1,6 @@
 #include "Integer.h"
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//using namespace std;
 
 
 Integer::Integer()
@@ -17,10 +17,10 @@ Integer::~Integer()
 }
 
 
-////³ÉÔ±º¯Êý×ÔÔöÔËËã·ûÖØÔØºÍÓÑÔª²»ÄÜ¹²´æ
+////ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½
 //Integer & Integer::operator++()
 //{
-//	// TODO: ÔÚ´Ë´¦²åÈë return Óï¾ä
+//	// TODO: ï¿½Ú´Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ return ï¿½ï¿½ï¿½
 //	++this->m_ele;
 //	return *this;
 //}
@@ -30,9 +30,21 @@ void Integer::Display() const
 	cout << this->m_ele << endl;
 }
 
+Integer::operator int()
+{
+	return m_ele;
+}
+
 Integer & operator++(Integer & other)
 {
-	// TODO: ÔÚ´Ë´¦²åÈë return Óï¾ä
+	// TODO: ï¿½Ú´Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ return ï¿½ï¿½ï¿½
 	++other.m_ele;
 	return other;
+}
+
+ostream & operator<<(ostream & os, const Integer & other)
+{
+	// TODO: ï¿½Ú´Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ return ï¿½ï¿½ï¿½
+	os << other.m_ele;
+	return os;
 }
