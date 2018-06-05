@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="转换与继承.cpp">
+    <ClCompile Include="虚函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
