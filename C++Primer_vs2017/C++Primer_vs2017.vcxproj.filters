@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ObjectSlicing对象切割.cpp">
+    <ClCompile Include="抽象类和纯虚函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

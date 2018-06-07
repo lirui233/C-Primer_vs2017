@@ -55,5 +55,5 @@ int main(void)
 	T();
 
 	system("pause");
-	return 0;	
+	return 0;
 }
