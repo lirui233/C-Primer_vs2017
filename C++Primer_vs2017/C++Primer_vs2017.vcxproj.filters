@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="抽象类和纯虚函数.cpp">
+    <ClCompile Include="RTTI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
