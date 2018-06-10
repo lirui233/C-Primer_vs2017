@@ -15,8 +15,68 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RTTI.cpp">
+    <ClCompile Include="表达式计算器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplyNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnaryNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UminusNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplyNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UminusNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

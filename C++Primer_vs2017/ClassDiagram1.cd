@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AddNode">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAA=</HashCode>
+      <FileName>AddNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryNode">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAACAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BinaryNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberNode">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAEAAAAAAAAAAABAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>NumberNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DivideNode">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DivideNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiplyNode">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAoAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MultiplyNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubNode">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnaryNode">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>UnaryNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UminusNode">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>UminusNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
