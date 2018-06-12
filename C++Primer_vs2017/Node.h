@@ -1,6 +1,7 @@
 #pragma once
 #include <cmath>
-class Node
+#include "Nocopyable.h"
+class Node:private Nocopyable
 {
 public:
 	Node();
