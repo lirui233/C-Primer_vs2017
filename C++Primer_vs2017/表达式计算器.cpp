@@ -18,7 +18,6 @@ int main(void)
 		parser.Calculate();
 	} while (1);
 	
-
 	system("pause");
 	return 0;
 }
