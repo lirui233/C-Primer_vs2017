@@ -1,8 +1,9 @@
 #pragma once
 
 class Scanner; // 前向声明
+class Node;
 
-enum EStatus
+enum ESTATUS
 {
 	STATUS_OK,
 	STATUS_ERROR,
@@ -21,8 +22,8 @@ public:
 	Node *Factor();
 	double Calculate() const;
 private:
-	Scanner & m_scanner;
+	Scanner & m_scanner; // 关联关系，不是组合关系
 	Node *m_pTree;
-	EStatus m_status;
+	ESTATUS m_status;
 };
 

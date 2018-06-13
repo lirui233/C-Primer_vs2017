@@ -1,7 +1,7 @@
 #pragma once
-
-
-enum EToken
+#include <string>
+using namespace std;
+enum ETOKEN
 {
 	TOKEN_END,
 	TOKEN_ERROR,
@@ -24,10 +24,10 @@ public:
 	~Scanner();
 	void Accept(); // É¨Ãè
 	double Number() const; // ·µ»ØÊý×Ö
-	EToken Token() const; // ·µ»Ø×´Ì¬
+	ETOKEN Token() const; // ·µ»Ø×´Ì¬
 private:
 	const string m_strBuf; // ÊäÈëµÄ×Ö·û´®
-	EToken m_token; // 
+	ETOKEN m_token; // 
 	double m_dNumber;
 	unsigned int m_curPos;
 	void SkipWhite(); // ºöÂÔ¿Õ°××Ö·û

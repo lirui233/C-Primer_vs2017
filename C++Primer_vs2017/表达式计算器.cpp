@@ -6,6 +6,7 @@ using namespace std;
 
 int main(void)
 {
+	ESTATUS status = STATUS_OK;
 	do
 	{
 		cout << "> ";
@@ -15,8 +16,8 @@ int main(void)
 		Scanner scanner(buf); // É¨ÃèÆ÷
 		Parser parser(scanner); // ½âÎöÆ÷
 		parser.Parse();
-		parser.Calculate();
-	} while (1);
+		cout << parser.Calculate() << endl;
+	} while (status != STATUS_QUIT);
 	
 	system("pause");
 	return 0;

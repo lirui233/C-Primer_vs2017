@@ -1,7 +1,5 @@
 #include "Scanner.h"
 #include <cctype>
-#include <string>
-using namespace std;
 
 Scanner::Scanner(const string &buf):m_strBuf(buf), m_curPos(0)
 {
@@ -45,7 +43,7 @@ void Scanner::Accept()
 		break;
 	case '0':case '1':case '2':case '3':case '4':case '5':case '6':case '7':case '8':case '9':case '.':
 		m_token = TOKEN_NUMBER;
-		strtod(&m_strBuf[m_curPos], &p);
+		m_dNumber = strtod(&m_strBuf[m_curPos], &p);
 		if (p)
 		{
 			m_curPos = p - &m_strBuf[0];
@@ -64,7 +62,7 @@ double Scanner::Number() const
 	return m_dNumber;
 }
 
-EToken Scanner::Token() const
+ETOKEN Scanner::Token() const
 {
 	return m_token;
 }
