@@ -1,6 +1,6 @@
 #include "Parser.h"
 #include "Scanner.h"
-
+#include "Node.h"
 
 Parser::Parser(Scanner & scanner):m_scanner(scanner)
 {

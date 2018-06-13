@@ -1,8 +1,8 @@
 #pragma once
-#include "Node.h"
+
 class Scanner; // Ç°ÏòÉùÃ÷
 
-enum ESTATUS
+enum EStatus
 {
 	STATUS_OK,
 	STATUS_ERROR,
@@ -23,6 +23,6 @@ public:
 private:
 	Scanner & m_scanner;
 	Node *m_pTree;
-	ESTATUS m_status;
+	EStatus m_status;
 };
 

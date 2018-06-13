@@ -1,6 +1,7 @@
 #include "Scanner.h"
 #include <cctype>
-
+#include <string>
+using namespace std;
 
 Scanner::Scanner(const string &buf):m_strBuf(buf), m_curPos(0)
 {
