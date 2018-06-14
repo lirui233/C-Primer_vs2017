@@ -44,9 +44,9 @@ Node * Parser::Expr()
 	return pNode;
 }
 
-Node * Parser::Term()
+Node * Parser::Term() // Ïî
 {
-	Node *pNode = Factor();
+	Node *pNode = Factor(); //ÒòÊý
 	ETOKEN token = m_scanner.Token();
 	if (token == TOKEN_MULTIPLY)
 	{

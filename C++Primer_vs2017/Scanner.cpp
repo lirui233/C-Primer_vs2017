@@ -1,7 +1,7 @@
 #include "Scanner.h"
 #include <cctype>
 
-Scanner::Scanner(const string &buf):m_strBuf(buf), m_curPos(0)
+Scanner::Scanner(const string &buf):m_strBuf(buf), m_curPos(0) // buf,m_strBuf都为用户输入表达式
 {
 	Accept(); //调用构造函数就开始扫描
 }
@@ -13,7 +13,7 @@ Scanner::~Scanner()
 
 void Scanner::Accept()
 {
-	SkipWhite();
+	SkipWhite(); // 去除空白字符
 	char *p = nullptr;
 	switch (m_strBuf[m_curPos])
 	{
