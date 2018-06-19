@@ -31,7 +31,7 @@
     <ClCompile Include="SubNode.cpp" />
     <ClCompile Include="UminusNode.cpp" />
     <ClCompile Include="UnaryNode.cpp" />
-    <ClCompile Include="表达式计算器.cpp" />
+    <ClCompile Include="异常.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddNode.h" />

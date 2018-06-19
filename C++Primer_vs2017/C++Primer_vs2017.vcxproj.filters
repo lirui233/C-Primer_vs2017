@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="表达式计算器.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -52,6 +49,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="异常.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
